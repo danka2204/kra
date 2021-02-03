@@ -16,18 +16,18 @@ a {
   text-decoration: none;
   color: inherit;
 }
-.naw-bar {
+.nav-bar {
   font-size: 18px;
   font-weight: 600;
   text-align: center;
-  margin: 35px;
+  padding: 35px;
 }
 
-.naw-bar-element:not(:last-of-type) {
-  margin-right: 65px;
+.nav-bar-link:not(:last-of-type) {
+  padding-right: 65px;
 }
 
-.naw-bar-element {
+.nav-bar-link {
   color: #16a085;
   font-size: 18px;
   text-align: left;
@@ -85,9 +85,10 @@ a {
 }
 
 .footer {
+  color: #ffffff;
 }
 
-.The-End {
+.copyright {
   color: #373737;
   margin: 50px 105px;
   text-align: right;
